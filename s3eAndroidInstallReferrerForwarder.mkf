@@ -1,0 +1,10 @@
+# Subproject file for extension s3eAndroidInstallReferrerForwarder.
+#
+# Include this subproject in your App to enable access to the s3eAndroidInstallReferrerForwarder API
+
+display_name "Extensions/s3eAndroidInstallReferrerForwarder"
+
+deployments
+{
+    android-external-jars="lib/android/s3eAndroidInstallReferrerForwarder.jar"
+}

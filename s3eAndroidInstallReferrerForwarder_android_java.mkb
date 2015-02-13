@@ -1,0 +1,13 @@
+#!/usr/bin/env mkb
+# Builder mkb file for the java portion of the s3eAndroidInstallReferrerForwarder extension on android
+platform JAVA
+
+files
+{
+    (source/android)
+	InstallReferrerForwarderReceiver.java
+}
+
+librarypath "$MARMALADE_ROOT/s3e/deploy/plugins/android/android.jar"
+
+option output-name=lib/android/s3eAndroidInstallReferrerForwarder.jar
